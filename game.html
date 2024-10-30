@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assets and Liabilities Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="bg.jpg" class="full-screen-image">
+
+<body>
+    <img src="bg.jpg" class="full-screen-image">
+
+    <h1>DRAG AN ITEM AND DROP ITEM INTO CORRECT CATEGORY</h1>
+    <div id="all-items" class="items-container hidden">
+        <div class="item" id="cashinhand" draggable="true">Cash in hand</div>
+        <div class="item" id="bankoverdraft" draggable="true">Bank Overdraft</div>
+        
+        <div class="item" id="cashatbank" draggable="true">Cash at bank</div>
+        <div class="item" id="billspayable" draggable="true">Bills Payable</div>
+        
+        <div class="item" id="billsreceivable" draggable="true">Bills Receivable</div>
+        <div class="item" id="sundrycreditor" draggable="true">Sundry Creditor</div>
+        
+        <div class="item" id="shortterminvestment" draggable="true">Short Term Investment</div>
+        <div class="item" id="outstandingexp" draggable="true">Outstanding Expense</div>
+        
+        <div class="item" id="sundrydebtor" draggable="true">Sundry Debtor</div>
+        <div class="item" id="unearnedincome" draggable="true">Unearned Income</div>
+        
+        <div class="item" id="closingstock" draggable="true">Closing Stock</div>
+        <div class="item" id="longtermloan" draggable="true">Long Term Loan</div>
+        
+        <div class="item" id="prepaidexpenses" draggable="true">Prepaid Expenses</div>
+        <div class="item" id="reserves" draggable="true">Reserves</div>
+        
+        <div class="item" id="furniture" draggable="true">Furniture</div>
+        <div class="item" id="capital" draggable="true">Capital</div>
+        
+        <div class="item" id="loosetools" draggable="true">Loose Tools</div>
+        <div class="item" id="longtermprovision" draggable="true">Long Term Provision</div>
+        
+        <div class="item" id="motorvehicle" draggable="true">Motor Vehicle</div>
+        <div class="item" id="longtermobligation" draggable="true">Long Term Obligation</div>
+        
+        <div class="item" id="longterminvestment" draggable="true">Long Term Investment</div>
+        <div class="item" id="patent" draggable="true">Patent</div>
+        
+        <div class="item" id="landandbuilding" draggable="true">Land and Building</div>
+        <div class="item" id="goodwill" draggable="true">Goodwill</div>
+    </div>
+    
+    
+    <div class="dropzone-container">
+        <!-- Dropzones -->
+        <div id="C-assets" class="dropzone">
+            <h2>Current Assets</h2>
+        </div>
+        <div id="F-assets" class="dropzone">
+            <h2>Fixed Assets</h2>
+        </div>
+        <div id="C-liabilities" class="dropzone">
+            <h2>Current Liabilities</h2>
+        </div>
+        <div id="F-liabilities" class="dropzone">
+            <h2>Fixed Liabilities</h2>
+        </div>
+    </div>
+    <div class="scoreboard">
+        <p id="score">Score: 0</p>
+        <p id="timer">Time Left: 00:20</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+    <a href="index.html" class="image-button2"></a>
+
+    <div id="game-over-popup" class="popup-hidden">
+        <div class="popup-content">
+            <h3>GAME OVER</h3>
+            <p id="final-score">Your final score is: 0</p>
+            <button onclick="restartGame()" class="restart-btn"></button>
+        </div>
+    </div>
+    
+</body>
+    
+    
+</body>
+</html>

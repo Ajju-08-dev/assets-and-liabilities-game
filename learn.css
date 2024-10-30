@@ -1,0 +1,34 @@
+.full-screen-image {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;      
+    height: 100vh;     
+    z-index: -1;   
+}
+
+.image-button2 {
+    display: inline-block;
+    background-image: url('but2.jpg');
+    background-size: cover;
+    background-position-x:-9px;
+    background-position-y: 115px;
+    width: 150px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+    transition: box-shadow 0.4s ease; 
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+    transition: text-shadow 0.3s ease, transform 0.3s ease;
+}
+/* Hover effect */
+.image-button2:hover {
+    box-shadow: 0 0 30px 10px rgba(0, 251, 255, 0.44); 
+    transform: scale(1.2); 
+}
+
